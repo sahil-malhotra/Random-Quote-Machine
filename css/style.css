@@ -96,3 +96,10 @@ div {
 .quote-box .buttons #new-quote {
 	float: right;
 }
+
+@media screen and (max-width:540px) {
+  .quote-box, .quote-box .buttons, .quote-box .quote-author, .quote-box .quote-text, .footer  {
+      width: auto;
+  }
+ 
+}
